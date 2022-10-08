@@ -1,0 +1,122 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+*
+{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+
+.ContenedorPersonajes 
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	max-height: 90vh;
+}
+
+.botonContainer
+{
+	display: flex;
+	margin-right: 1rem;
+	width: 300px;
+}
+
+.btnChange
+{
+	margin-right: 1rem;
+	width: 2rem;
+}
+
+body
+{
+	background: #485563;
+	background: -webkit-linear-gradient(to right, #29323c, #485563);
+	background: linear-gradient(to right, #29323c, #485563);
+}
+
+ol
+{
+	list-style: none;
+}
+
+.card {
+	margin-top: 1.5rem;
+	-webkit-box-shadow: -8px 13px 43px -18px rgba(0,0,0,0.71);
+	-moz-box-shadow: -8px 13px 43px -18px rgba(0,0,0,0.71);
+	box-shadow: -8px 13px 43px -18px rgba(0,0,0,0.71);
+	text-align: center;
+	background-color:  #272727;
+	color: white;
+	cursor: pointer;
+}
+
+.card:hover .card-title 
+{
+	color: rgb(105, 105, 105);
+}
+
+
+.navbar 
+{
+	background: #485563;
+	background: -webkit-linear-gradient(to right, #29323c, #485563);
+	background: linear-gradient(to right, #29323c, #485563);
+}
+
+.navbar-brand
+{
+	color:  white;
+	cursor: pointer;
+}
+
+.btn-dark
+{
+	width: 100%;
+}
+
+
+
+
+
+/*PESONAJE SOLO */
+
+.imgPersonaje
+{
+	border-radius: 50%;
+	margin-right: 2rem;
+}
+
+
+.ContenedorPersonaje
+{
+	height: 90vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+
+.ConPersonajeUnico
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.PersonajeUnicoTexto
+{
+	text-align: justify;
+	color: white;
+}
+
+.tituloPersonaje
+{
+	text-decoration: underline;
+}
+
+
